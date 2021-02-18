@@ -1,0 +1,37 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "http://www/my_project.com/reellay_vessel_schema.json",
+    "type":"object",
+    "title":"vessel",
+    "description": "base schema for reellay vessel. It describes a reel-lay vessel used to install the subsea pipeline.",
+    "properties": {
+        "name":{
+            "type":"string",
+            "title":"vessel name",
+            "description": "The name of the vessel",
+            "examples": ["Deep Blue", "FDS 2"]
+        },
+        "R_reel":{
+            "type":"number",
+            "title":"vessel storage reel radius",
+            "description": "the radius of the vessel storage reel, in m.",
+            "examples": [8.975, 9.50]
+
+        },
+        "R_aligner":{
+            "type":"number",
+            "title":"vessel aligner reel radius",
+            "description": "the radius of the vessel aligning reel, in m.",
+            "examples": [8.975, 9.50]
+
+        },
+        "straightening_capacity":{
+            "type":"number",
+            "title":"vessel straightener mechanical capacity",
+            "description": "the radius of the vessel aligning reel, in N.m.",
+            "examples": [8.975, 9.50]
+
+        }               
+
+    }
+}
