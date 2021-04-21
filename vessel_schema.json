@@ -20,7 +20,7 @@
         },
         "R_aligner":{
             "type":"number",
-            "title":"vessel aligner reel radius",
+            "title":"vessel aligner reel hub radius",
             "description": "the radius of the vessel aligning reel, in m.",
             "examples": [8.975, 9.50]
 
