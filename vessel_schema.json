@@ -28,7 +28,7 @@
         "straightening_capacity":{
             "type":"number",
             "title":"vessel straightener mechanical capacity",
-            "description": "the radius of the vessel aligning reel, in N.m.",
+            "description": "the radius of the vessel aligning reel, at the top of the vessel ramp, in N.m.",
             "examples": [8.975, 9.50]
 
         }               
